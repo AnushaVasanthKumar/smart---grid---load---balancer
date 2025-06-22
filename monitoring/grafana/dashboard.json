@@ -1,1 +1,21 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Smart Grid Substation Load",
+    "timezone": "browser",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Substation Load",
+        "targets": [
+          { "expr": "substation_current_load", "legendFormat": "{{instance}}", "refId": "A" }
+        ],
+        "gridPos": { "x": 0, "y": 0, "w": 24, "h": 10 },
+        "datasource": "Prometheus"
+      }
+    ],
+    "schemaVersion": 27,
+    "version": 1
+  }
+}
 
